@@ -1,0 +1,28 @@
+#page-home{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+
+    #profile{
+        background-image: url("../assets/Perfil.jpg");
+        background-size: cover;
+        justify-content: center;
+        background-position-x: 75%;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-top: 2%;
+        margin-right: auto;
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+
+
+
+
+}
+

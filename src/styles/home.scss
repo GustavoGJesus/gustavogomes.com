@@ -1,28 +1,40 @@
 #page-home{
     margin: 0;
+    
     font-family: 'Inter', sans-serif;
+    color: #161819;
+    background: e1e1e1;
 
     #profile{
         background-image: url("../assets/Perfil.jpg");
         background-size: cover;
+        
         justify-content: center;
-        background-position-x: 75%;
+        background-position-x: 35%;
         background-repeat: no-repeat;
+        
         margin-left: auto;
         margin-top: 2%;
         margin-right: auto;
-        height: 140px;
-        width: 140px;
+        
+        height: 270px;
+        width: 270px;
+        
         border-radius: 50%;
+        box-shadow:  02px 02px 08px -1px;
     }
 
     h1{
         text-align: center;
+        font-size: 90px;
+
+        margin-top:10px;
     }
+    h2{
+        text-align: center;
+        font-weight: 100;
 
-
-
-
-
+        margin-top: -50px;
+    }
 }
 

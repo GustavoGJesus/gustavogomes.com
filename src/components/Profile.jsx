@@ -9,7 +9,7 @@ export default function Profile(){
             <div className="photo-profile"/>
             <h1>Gustavo Gomes</h1>
             <Typing>
-                <h2>Frontend Engineer</h2>
+                <h2>Full Stack Engineer</h2>
                 <Typing.Delay ms={1000} />
             </Typing>
 
@@ -22,9 +22,9 @@ export default function Profile(){
                 <p>
                     I'am Software Engineer with specialty in JavaScript / ReactJs / NodeJs .
                     <br />
-                    I am also a Computer Science student at Centro Universitário de Brasília.
+                    I'am also a Computer Science student at Centro Universitário de Brasília.
                     <br />
-                    I am an admirer of Technology and Innovation, I am always looking for new knowledge so that I can achieve results with them.
+                    I'am an admirer of Technology and Innovation, I am always looking for new knowledge so that I can achieve results with them.
                     <br />
                     My goal is to make people's lives easier through Technology.
                 </p>

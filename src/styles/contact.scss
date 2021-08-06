@@ -1,0 +1,23 @@
+#contact{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+    #h1-contact{
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+        color: #161819;
+    
+        text-align: center;
+    }
+    .icons{
+        align-items: center;
+        height: 30px;
+        width: 30px;
+        color: #707070;
+        margin: 12px;
+        margin-top: -15px;
+    }
+}

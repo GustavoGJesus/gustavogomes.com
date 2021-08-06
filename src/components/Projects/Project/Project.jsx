@@ -23,7 +23,7 @@ const Project = ({ project }) => {
                     </Typography>
                 </CardContent>
                 <CardActions disableSpacing className={classes.cardActions}>
-                    <IconButton aria-label="GitHub">
+                    <IconButton aria-label="GitHub" href={project.url}>
                     <GitHubIcon />
                     </IconButton>
                 </CardActions>

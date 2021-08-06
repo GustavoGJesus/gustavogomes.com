@@ -6,6 +6,8 @@ import Projects from '../components/Projects/Projects'
 
 import ReactLogo from '../assets/react.gif'
 import ProjectsLogo from '../assets/projects.gif'
+import Contact from './Contact';
+import Footer from './Footer';
 
 export default function Profile(){
     return(
@@ -37,6 +39,8 @@ export default function Profile(){
             </div>
         </div>
         <Projects />
+        <Contact />
+        <Footer />
     </>
     );
 }

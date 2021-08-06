@@ -15,18 +15,21 @@ const projects = [
         title: 'Tesla Clone Website',
         description: 'Rect and material-ui',
         image: 'https://github.com/GustavoGJesus/GustavoGomes/blob/master/src/assets/tesla.gif?raw=true',
+        url: 'https://github.com/GustavoGJesus/tesla-clone'
     },
     {
         id: 2,
         title: 'E commerce Website',
         description: 'Api, Rect and material-ui',
-        image: 'https://github.com/GustavoGJesus/GustavoGomes/blob/master/src/assets/ecommerce.gif?raw=true',
+        image: 'https://github.com/GustavoGJesus/GustavoGomes/blob/master/src/assets/store.gif?raw=true',
+        url: 'https://github.com/GustavoGJesus/ECommerce-Web-Shop'
     },
     {
         id: 3,
-        title: 'Movies App',
+        title: 'Movies Website',
         description: 'Api, Rect and material-ui',
         image: 'https://github.com/GustavoGJesus/GustavoGomes/blob/master/src/assets/movies.gif?raw=true',
+        url: 'https://github.com/GustavoGJesus/movies-app'
     },
     
     
@@ -37,8 +40,7 @@ const Projects = () => {
             <h1 className="projects-h1">
                 Some projects
             </h1>
-            <Grid container justify="center" /*direction="column"
-            display="flex" justify="center" alignItems="center"*/ backgroundColor="##a8a8b3" spacing={2}>
+            <Grid container justify="center" backgroundColor="##a8a8b3" spacing={2}>
                 {projects.map((project) =>(
                     <Grid item key={project.id}  xs={12} sm={6} md={4} lg={3}>
                         <Project project={project}/>

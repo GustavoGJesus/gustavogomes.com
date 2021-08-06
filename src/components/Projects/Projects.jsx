@@ -5,6 +5,9 @@ import Project from './Project/Project';
 import style from './Project/style'
 import styleScss from '../../styles/projects.scss'
 
+import LogoTalk from '../../assets/talk.gif'
+
+
 
 const projects = [
     {
@@ -34,13 +37,17 @@ const Projects = () => {
             <h1 className="projects-h1">
                 Some projects
             </h1>
-            <Grid container justify="center" spacing={2} overFlowX="hidden">
+            <Grid container justify="center" /*direction="column"
+            display="flex" justify="center" alignItems="center"*/ backgroundColor="##a8a8b3" spacing={2}>
                 {projects.map((project) =>(
-                    <Grid item key={project.id} xs={12} sm={6} md={4} lg={3}>
+                    <Grid item key={project.id}  xs={12} sm={6} md={4} lg={3}>
                         <Project project={project}/>
                     </Grid>
                 ))}
             </Grid>
+            <div className="separator">
+            <img src={LogoTalk} alt="Gif-Projects" />
+            </div>
         </main>
     );
 };

@@ -4,6 +4,9 @@ import Typing from 'react-typing-animation'
 import Styles from '../styles/profile.scss'
 import Projects from '../components/Projects/Projects'
 
+import ReactLogo from '../assets/react.gif'
+import ProjectsLogo from '../assets/projects.gif'
+
 export default function Profile(){
     return(
     <> 
@@ -15,7 +18,7 @@ export default function Profile(){
                 <Typing.Delay ms={1000} />
             </Typing>
 
-            <div className="separator">//</div>
+            <div className="separator"><img src={ReactLogo} alt="ReactLogo" /></div>
             
             <div className="about">
                 <h1 className="about-h1">
@@ -30,7 +33,7 @@ export default function Profile(){
                     <br />
                     My goal is to make people's lives easier through Technology.
                 </p>
-                <div className="separator">//</div>
+                <div className="separator"><img src={ProjectsLogo} alt="Gif-Projects" /></div>
             </div>
         </div>
         <Projects />

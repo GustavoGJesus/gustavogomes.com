@@ -5,8 +5,6 @@ import Project from './Project/Project';
 import style from './Project/style'
 import styleScss from '../../styles/projects.scss'
 
-import img from './assetsProject/ecommerce.gif'
-
 
 const projects = [
     {
@@ -18,8 +16,14 @@ const projects = [
     {
         id: 2,
         title: 'E commerce Website',
-        description: 'Rect and material-ui',
+        description: 'Api, Rect and material-ui',
         image: 'https://github.com/GustavoGJesus/GustavoGomes/blob/master/src/assets/ecommerce.gif?raw=true',
+    },
+    {
+        id: 3,
+        title: 'Movies App',
+        description: 'Api, Rect and material-ui',
+        image: 'https://github.com/GustavoGJesus/GustavoGomes/blob/master/src/assets/movies.gif?raw=true',
     },
     
     

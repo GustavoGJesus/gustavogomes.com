@@ -2,14 +2,16 @@ import React from 'react';
 import Typing from 'react-typing-animation'
 
 import Styles from '../styles/profile.scss'
+import Projects from '../components/Projects/Projects'
 
 export default function Profile(){
     return(
+    <> 
         <div className="profile">
             <div className="photo-profile"/>
             <h1>Gustavo Gomes</h1>
             <Typing>
-                <h2>Full Stack Engineer</h2>
+                <h2>Frontend Engineer</h2>
                 <Typing.Delay ms={1000} />
             </Typing>
 
@@ -31,6 +33,8 @@ export default function Profile(){
                 <div className="separator">//</div>
             </div>
         </div>
+        <Projects />
+    </>
     );
 }
 

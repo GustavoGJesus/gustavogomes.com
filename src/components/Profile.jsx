@@ -2,7 +2,7 @@ import React from 'react';
 import Typing from 'react-typing-animation'
 
 import Styles from '../styles/profile.scss'
-import Projects from '../components/Projects/Projects'
+import Cards from '../components/Cards/Cards'
 
 import ReactLogo from '../assets/react.gif'
 import ProjectsLogo from '../assets/projects.gif'
@@ -38,7 +38,7 @@ export default function Profile(){
                 <div className="separator"><img src={ProjectsLogo} alt="Gif-Projects" /></div>
             </div>
         </div>
-        <Projects />
+        <Cards />
         <Contact />
         <Footer />
     </>

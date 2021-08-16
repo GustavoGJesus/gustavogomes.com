@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Profile from '../components/Profile';
-import Projects from '../components/Projects/Projects'
+import Cards from '../components/Cards/Cards'
 
 export default function Home(){
   return(

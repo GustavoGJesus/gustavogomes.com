@@ -28,7 +28,7 @@ export default function CardMotion(){
 
     return(
     <>
-    <h1>Projects</h1>
+    <h1>Some Projects</h1>
     <body className="body">
         <div className="container">
             <div className="carousel" ref={carousel}>

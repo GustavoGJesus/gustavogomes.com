@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 
-import '../Cards/cards.css'
+import '../Cards/cards.scss'
 
 
 export default function CardMotion(){

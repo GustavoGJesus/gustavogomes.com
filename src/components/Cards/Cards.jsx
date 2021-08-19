@@ -13,43 +13,34 @@ export default function CardMotion(){
         .then(setData)
     }, []);
 
-    const handleLeftClick = (e) => {
-        e.preventDefault();
-        carousel.current.scrollLeft -= carousel.current.offsetWidth;
-    };
-
-    const handleRightClick = (e) => {
-        e.preventDefault();
-
-        carousel.current.scrollLeft += carousel.current.offsetWidth;
-    };
-
-    if (!data || !data.length) return null;
-
     return(
     <>
-    <h1>Some Projects</h1>
-    <body className="body">
-        <div className="container">
-            <div className="carousel" ref={carousel}>
-                {data.map((item) => {
-                    const{id, name, description, image} = item;
-                    return(
-                        <div className="item" key={id}>
-                            <div className="image">
-                                <img src={image} alt={name} />
-                            </div>
-                            <div className="info">
-                                <span className="name">{name}</span>
-                                <span className="description">{description}</span>
-                            </div>
-                        </div>
-                    )
-                })}
+        <h1>Some Projects</h1>
+            <body className="body">
+                <div className="container">
+                    <div className="cards" ref={carousel}>
+                        {data.map((item) => {
+                            const{id, name, description, image, link} = item;
+                        return(
+                            <div className="item" key={id}>
+                                <div className="image">
+                                    <img src={image} alt={name} />
+                                </div>
+                                <div className="info">
+                                    <span className="name">{name}</span>
+                                    <span className="description">{description}</span>
+                                </div>
+                                <a href={link}>
+                                    <button type="submit" >
+                                        Visit
+                                    </button>
+                                </a>
+                                </div>
+                            );
+                        })}
+                </div>
             </div>
-        </div>
-    </body>
+        </body>
     </>
     );
-    
 };

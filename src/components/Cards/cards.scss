@@ -92,12 +92,20 @@ button{
   background-color: #000;
   font-size: 1.0rem;
   color: #fff;
-  padding: 10px;
   border-radius: 0.5rem;
   margin-top: 2.0rem;
-  height: auto;
-  width:8rem;
+  padding: 10px 23px;
   text-align: center;
   border-style: none;
   cursor: pointer;
+  transition: filter 0.2s;
+    
+    &:not(:disabled):hover{
+      filter: brightness(0.9);
+    }
+
+  &disabled{
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
 }

@@ -4,14 +4,25 @@ import '../Cards/cards.scss'
 
 
 export default function CardMotion(){
-    const [data, setData] = useState([]);
-    const carousel = useRef(null);
+   const carousel = useRef(null);
     
-    useEffect(() => {
-        fetch('http://localhost:3000/static/content.json')
-        .then((response) => response.json())
-        .then(setData)
-    }, []);
+   const data = [
+        {
+            "id": "1",
+            "name": "My GitHub" ,
+            "description": "Local onde eu coloco os meus Projetos pessoais e estudos",
+            "image": "https://image.flaticon.com/icons/png/512/25/25231.png",
+            "link": "https://github.com/GustavoGJesus"
+        },
+        {
+            "id": "2",
+            "name": "My Artigos" ,
+            "description": "Meus artigos sobre Tecnologia e Inovação ",
+            "image": "https://pingback.com/android-chrome-256x256.png",
+            "link": "https://pingback.com/gustavo-gomes"
+        }
+    
+    ]
 
     return(
     <>

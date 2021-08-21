@@ -9,15 +9,15 @@ export default function CardMotion(){
    const data = [
         {
             "id": "1",
-            "name": "My GitHub" ,
-            "description": "Local onde eu coloco os meus Projetos pessoais e estudos",
+            "name": "GitHub" ,
+            "description": "Check out my projects and studies",
             "image": "https://image.flaticon.com/icons/png/512/25/25231.png",
             "link": "https://github.com/GustavoGJesus"
         },
         {
             "id": "2",
-            "name": "My Artigos" ,
-            "description": "Meus artigos sobre Tecnologia e Inovação ",
+            "name": "Pingback" ,
+            "description": "My Articles on Programming",
             "image": "https://pingback.com/android-chrome-256x256.png",
             "link": "https://pingback.com/gustavo-gomes"
         }

@@ -43,7 +43,7 @@ export default function CardMotion(){
                                 </div>
                                 <a href={link}>
                                     <button type="submit" >
-                                        Visit
+                                        Visit.
                                     </button>
                                 </a>
                                 </div>

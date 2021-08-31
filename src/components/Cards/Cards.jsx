@@ -17,7 +17,7 @@ export default function CardMotion(){
         {
             "id": "2",
             "name": "Pingback" ,
-            "description": "My Articles on Programming",
+            "description": "My Articles on Technology",
             "image": "https://pingback.com/android-chrome-256x256.png",
             "link": "https://pingback.com/gustavo-gomes"
         }
@@ -43,12 +43,12 @@ export default function CardMotion(){
                                 </div>
                                 <a href={link}>
                                     <button type="submit" >
-                                        Visit.
+                                        Visit
                                     </button>
                                 </a>
-                                </div>
-                            );
-                        })}
+                    </div>
+                    );
+                    })}
                 </div>
             </div>
         </body>

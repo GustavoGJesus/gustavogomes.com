@@ -8,24 +8,35 @@ import ReactLogo from '../assets/react.gif'
 import ProjectsLogo from '../assets/projects.gif'
 import Contact from './Contact';
 import Footer from './Footer';
-
+//Typing.Delay ms={1000}
 export default function Profile(){
     return(
     <> 
         <div className="profile">
             <div className="photo-profile"/>
             <h1>Gustavo Gomes</h1>
-            <Typing>
-                <h2>Frontend Engineer</h2>
-                <Typing.Delay ms={1000} />
-            </Typing>
+            
+                <h2>
+                    <div>
+                    <Typing loop="true">
+                        <Typing.Speed ms={50} />
+                            <span>Frontend Engineer</span>
+                        <Typing.Delay ms={1000} />
+                        <Typing.Backspace count={20} />
+                            <span>Computer Science Student</span>
+                        <Typing.Delay ms={1000} />
+                        <Typing.Backspace count={30} />
+                    </Typing>
+                    </div>
+                </h2>
+               
 
            <div className="about">
                 <h1 className="about-h1">
-                    Hey!
+                    Hey, welcome! 👋🏽
                 </h1>
                 <p>
-                    I'am Software Engineer with specialty in JavaScript / ReactJs / NodeJs .
+                    I'am Software Engineer with specialty in JavaScript, Typescript, ReactJS and NodeJS .
                     <br />
                     I'am also a Computer Science student at Centro Universitário de Brasília.
                     <br />

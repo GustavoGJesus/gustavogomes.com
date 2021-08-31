@@ -5,7 +5,7 @@ import useStyles from '../styles/footer.scss'
 export default function Footer() {
     return (
         <div className="footer">
-            <span> © 2021 Gustavo Gomes</span>
+            <span> Copyrights ® 2021 Gustavo Gomes. All rights reserved.</span>
         </div>
     )
 }

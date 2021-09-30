@@ -4,11 +4,10 @@ import Typing from 'react-typing-animation'
 import Styles from '../styles/profile.scss'
 import Cards from '../components/Cards/Cards'
 
-import ReactLogo from '../assets/react.gif'
-import ProjectsLogo from '../assets/projects.gif'
+
 import Contact from './Contact';
 import Footer from './Footer';
-//Typing.Delay ms={1000}
+
 export default function Profile(){
     return(
     <> 

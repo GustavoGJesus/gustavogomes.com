@@ -14,23 +14,13 @@ export default function Profile(){
         <div className="profile">
             <div className="photo-profile"/>
             <h1>Gustavo Gomes</h1>
-            
-                <h2>
-                    <div>
-                    <Typing loop="true">
-                        <Typing.Speed ms={50} />
-                            <span>Frontend Engineer</span>
-                        <Typing.Delay ms={1000} />
-                        <Typing.Backspace count={20} />
-                            <span>Computer Science Student</span>
-                        <Typing.Delay ms={1000} />
-                        <Typing.Backspace count={30} />
-                    </Typing>
-                    </div>
-                </h2>
+            <h2>
+                <div>
+                    <span>Frontend Engineer</span>
+                </div>
+            </h2>
                
-
-           <div className="about">
+            <div className="about">
                 <h1 className="about-h1">
                     Hey, welcome! 👋🏽
                 </h1>
